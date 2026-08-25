@@ -53,17 +53,12 @@ jobs:
 
       - name: Setup HashiCorp Terraform CLI
         uses: hashicorp/setup-terraform@v3
-        with:
-          terraform_version: 1.6.0
-          terraform_wrapper: false
 
       - name: Terraform Format Verification
         run: terraform fmt -check -recursive devops/terraform
 
-      - name: Terraform Init
-        working-directory: devops/terraform
-        run: terraform init -backend=false -input=false
-
-      - name: Terraform Validate
-        working-directory: devops/terraform
-        run: terraform validate -no-color
+      - name: Terraform Init & Validate
+        run: |
+          cd devops/terraform
+          terraform init -backend=false -no-color
+          terraform validate -no-color
