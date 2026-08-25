@@ -1,0 +1,148 @@
+Introdução
+Este projeto tem como objetivo desenvolver habilidade de execução de um aplicativo/sistema de ponta a ponta utilizando os conteúdos apresentados no curso de Análise e Desenvolvimento de Sistemas.
+
+Escolha um dos temas propostos, e desenvolva o projeto do início ao fim com toda a documentação e módulos necessários. As tecnologias para o desenvolvimento do projeto, devem ser de sua escolha. As aulas contêm os conteúdos de apoio para auxiliá-lo neste processo, visando relembrar ferramentas e técnicas aprendidas durante o curso que podem ser aplicadas no projeto.
+
+Você pode definir um nome para o produto e adicionar funcionalidades que julgar interessante, mas deve entregar as funcionalidades propostas que farão parte dos critérios de avaliação.
+
+TEMA PROPOSTO 1 - SISTEMA PARA COMPARTILHAMENTO DE INFORMAÇÕES CLÍNICAS:
+
+Durante uma jornada de trabalho, o(a) trabalhador(a) pode sofrer acidentes e/ou precisar de atendimento médico. Na maioria das empresas os contatos de emergência são armazenados, assim como informações clínicas do funcionário (tipo sanguíneo, alergias, medicamentos que utiliza, etc.), mas muitas vezes estes dados podem estar desatualizados no sistema da empresa.
+
+A ideia deste projeto é fornecer uma forma fácil do trabalhador cadastrar essas informações e gerar um código QR com o link para visualizar seu cadastro público. Esse código QR pode ser impresso e colado na parte traseira de seu crachá ou outro equipamento que julgar interessante.
+
+Para maior segurança da informação, o sistema deve disponibilizar cadastro e login, o usuário deve poder cadastrar uma senha de acesso público, que deve ser impressa junto ao código QR, mas não deve estar anexada a ele. Esta senha deve ser solicitada na página para visualizar as informações do trabalhador.
+
+Para fins de simplificação, a funcionalidade de edição é opcional. Deve ser possível apagar registro completo e neste caso o link público fica indisponível.
+
+Os campos do formulário devem ter: nome, sobrenome, sexo, contato de emergência, tipo sanguíneo, alergias, medicamentos utilizados, doenças e cirurgias realizadas.
+
+TEMA PROPOSTO 2 - SISTEMA DE MEDIDAS PESSOAIS:
+
+Comprar online é cada vez mais comum no dia a dia do brasileiro e um dos setores mais aquecidos é o setor de vestuário. Atualmente, cada e-commerce tem seu sistema de medidas, o que pode levar à desistência da compra por falta de medidas pessoais ou a erro na hora de informar as medidas e escolher a peça adequada.
+
+A proposta deste sistema é permitir que o consumidor registre em um só lugar suas medidas e gere um código de acesso a essas informações. O sistema pode ser integrado a qualquer e-commerce, pois apenas pedindo o código do usuário o sistema poderá coletar as informações necessárias. Para facilitar a automação deste processo por parte dos lojistas, deve ser disponibilizada uma API que busca as medidas de um determinado usuário por código, de modo a possibilitar que demais sistemas busquem esta informação.
+
+Para maior segurança da informação, o sistema deve disponibilizar cadastro e login. O consumidor deve poder adicionar seus dados e excluir os mesmos.
+
+Para fins de simplificação, a funcionalidade de edição é opcional.
+
+Os campos do formulário devem ter: busto, tórax, cintura, quadril, coxa e número de calçado.
+
+Atenção: seu trabalho deve ser autoral e individual.
+
+Enunciado da fase 1
+
+A fase 1 será de modelagem da aplicação e deverá ser desenvolvida contendo:
+
+1. Identificação de no mínimo 10 requisitos funcionais e 2 requisitos não funcionais para o aplicativo/sistema a ser desenvolvido.
+2. As User Stories com seus critérios de aceite, a partir dos requisitos funcionais identificados.
+3. A Estrutura Analítica do Projeto (EAP) para auxiliar no planejamento do projeto, tendo assim uma visão geral do escopo. Lembrando que a EAP é o processo de subdivisão das entregas e do trabalho em componentes menores e de gerenciamento mais fácil. - Deve ser entregue de forma gráfica, conforme apresentado em aula. - Organizar as User Stories como se fossem pacotes de trabalho em, pelo menos, três ou quatro níveis dentro da EAP.
+4. A criação e organização de um Roadmap (cronograma) de entrega com datas a serem cumpridas.
+5. As tecnologias (Frontend, Backend, Arquitetura e Banco de Dados) que serão utilizadas e o porquê da sua escolha.
+6. A criação dos repositórios PRIVADOS no GitHub: você deve criar os repositórios necessários para seu projeto e adicionar o tutor como colaborador desde o início (com permissão de leitura).
+7. Os Protótipos de alta fidelidade no Figma ou similar.
+8. A Modelagem do banco de dados que será utilizado na aplicação.
+9. Conclusão com a descrição de aprendizados e dificuldades encontradas, assim como sua autoavaliação na fase 1 do projeto.
+
+
+Quais aulas você precisa assistir para realizar a fase 1? Aula 1.
+
+ 
+
+O que você precisa entregar? Um documento, conforme template disponibilizado pelos professores, com as User Stories, EAP, Roadmap, tecnologias utilizadas, link para os repositórios privados do GitHub no Branch de entrega (última alteração no Branch deve ser até a data e horário de entrega do projeto e o tutor deve estar adicionado como colaborador), link ou imagens do protótipo do Figma, imagem de modelagem do banco de dados e conclusão.
+
+Material Complementar
+Critérios de Avaliação
+
+
+Descrição
+Valor
+Descrição de requisitos funcionais e não funcionais e User Stories
+
+0.8
+Dimensões
+0.8 - Apresentou no mínimo 10 requisitos funcionais e 2 não funcionais. E descreveu todas as User Stories com critérios de aceite e de forma coerente.
+
+0.6 - Apresentou de 7 a 10 requisitos funcionais e ao menos 1 requisito não funcional. E cada requisito funcional possui sua respectiva User Stories com seus critérios de aceite.
+
+0.4 - Apresentou de 7 a 10 requisitos funcionais, mas sem requisitos não funcionais ou com User Stories em falta ou incompletas.
+
+0.2 - Apresentou de 4 a 7 requisitos funcionais, sem requisitos não funcionais ou com User Stories em falta ou incompletas.
+
+0 - Apresentou menos do que 4 requisitos funcionais e/ou menos do que 4 User Stories completas.
+
+
+Descrição
+Valor
+Desenvolvimento da EAP – Estrutura Analítica de Projeto com as User Stories como pacotes de trabalho em, pelo menos, três ou quatro níveis.
+
+0.8
+Dimensões
+0.8 - Apresentou a EAP com todos os pacotes de trabalho e com os níveis de forma correta.
+
+0.6 - Apresentou ao menos 90% dos pacotes de trabalho de forma correta e somente um nível errado.
+
+0.4 - Apresentou ao menos 90% dos pacotes de trabalho de forma correta e mais de um nível errado.
+
+0.2 - Apresentou ao menos 40% dos pacotes de trabalho de forma correta, independente dos níveis.
+
+0 - Apresentou menos de 40% dos pacotes de trabalho esperados de forma correta.
+
+
+Descrição
+Valor
+Criação e organização do Roadmap do projeto. Descrição e justificativa das tecnologias. Criação das atividades de organização dos repositórios.
+
+0.8
+Dimensões
+0.8 - Apresentou corretamente todos os 3 itens solicitados: - criação e organização do Roadmap do projeto; - descrição e justificativa das tecnologias; - criação das atividades de organização dos repositórios.
+
+0.6 - Apresentou corretamente 2 dos itens solicitados: - Roadmap do projeto; - descrição e justificativa das tecnologias; - atividades de organização dos repositórios.
+
+0.4 - Apresentou corretamente 1 dos itens solicitados: - Roadmap do projeto; - descrição e justificativa das tecnologias; - atividades de organização dos repositórios.
+
+0 - Não apresentou nenhum dos itens solicitados de forma correta.
+
+
+Descrição
+Valor
+Desenvolvimento do protótipo
+
+0.8
+Dimensões
+0.8 - Apresentou todos os protótipos para as funcionalidades e com qualidade excelente.
+
+0.6 - Apresentou todos os protótipos para as funcionalidades, mas com qualidade intermediária.
+
+0.4 - Apresentou ao menos 70% das funcionalidades nos protótipos ou todos com qualidade baixa.
+
+0.2 - Apresentou ao menos 30% das funcionalidades nos protótipos, independente da qualidade.
+
+0 - Apresentou menos de 30% das funcionalidades nos protótipos.
+
+
+Descrição
+Valor
+Modelagem do banco de dados
+
+0.8
+Dimensões
+0.8 - Apresentou a modelagem do banco de dados de forma clara, otimizada e correta para o projeto.
+
+0.4 - Apresentou a modelagem do banco de dados parcialmente ou com algumas falhas na estrutura.
+
+0 - Não apresentou a modelagem do banco de dados.
+
+
+Descrição
+Valor
+Conclusão e Autoavaliação
+
+0.5
+Dimensões
+0.5 - Apresentou conclusão muito bem elaborada, refletindo aprendizados, dificuldades e autoavaliação com profundidade e clareza.
+
+0.25 - Apresentou conclusão razoável, de forma que faltou clareza e detalhes sobre os aprendizados e dificuldades.
+
+0 - Não apresentou conclusão e autoavaliação.

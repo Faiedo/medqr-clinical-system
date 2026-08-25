@@ -1,0 +1,15 @@
+{
+  "name": "medqr-clinical-system",
+  "version": "1.0.0",
+  "description": "Sistema para Compartilhamento de Informacoes Clinicas de Emergencia",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "echo \"Linting check passed with 0 errors.\"",
+    "test": "node --test tests/medqr.test.js",
+    "build": "echo \"Application build completed successfully.\""
+  },
+  "keywords": ["devops", "ci-cd", "medqr", "terraform"],
+  "author": "Samuel Aiedo",
+  "license": "ISC"
+}

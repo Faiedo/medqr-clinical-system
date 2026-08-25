@@ -1,0 +1,85 @@
+Nesta primeira fase do projeto, Configuração e Automação Inicial, você se concentrará na configuração do pipeline de integração contínua, na criação de scripts de infraestrutura como código. As aulas essenciais para esta fase incluem Introdução ao DevOps, Integração Contínua, Entrega Contínua e Infraestrutura como Código.
+
+O que deve ser feito:
+
+1. Documentação de Planejamento
+
+a) Escreva uma descrição do projeto, seus objetivos e requisitos.
+b) Elabore um plano de integração contínua.
+c) Detalhe a especificação da infraestrutura necessária.
+
+OBS.: O documento deve conter o link para o repositório com os próximos dois tópicos.
+
+
+2. Pipeline de Integração Contínua (CI)
+
+a) Configure um repositório de código no GitHub.
+
+b) Implemente um pipeline de CI usando um GitHub Actions.
+
+
+3. Scripts de Infraestrutura como Código
+a) Desenvolva scripts para provisionamento de infraestrutura utilizando ferramentas como Terraform ou AWS CloudFormation.
+
+
+Quais aulas você precisa assistir para realizar a fase 1?
+
+Aulas 1 a 4:
+
+1. Introdução ao DevOps
+
+2. Integração Contínua (CI)
+
+3. Entrega Contínua (CD)
+4. Infraestrutura como Código (IaC)
+
+O que você precisa entregar?
+Um documento, conforme template disponibilizado pelos professores, contendo:
+• Documentação de Planejamento
+• Pipeline de Integração Contínua configurado
+• Scripts de Infraestrutura como Código
+• Testes automatizados implementados e integrados
+
+Material Complementar
+Critérios de Avaliação
+
+
+Descrição
+Valor
+Documentação de planejamento
+
+1
+Dimensões
+1 - Apresenta documentação clara e completa do projeto, objetivos bem definidos, requisitos detalhados, plano de integração contínua consistente e especificação de infraestrutura precisa.
+
+0.6 - Apresenta documentação dos aspectos solicitados, mas falta clareza e detalhes em um ou mais itens (descrição, objetivos, requisitos, plano de integração contínua ou especificação de infraestrutura).
+
+0.3 - Apresenta documentação incompleta, com ausência de um ou dois aspectos essenciais (descrição, objetivos, plano de integração ou especificação de infraestrutura).
+
+0 - Não apresenta documentação.
+
+
+Descrição
+Valor
+Estrutura do pipeline de Integração Contínua (CI)
+
+1
+Dimensões
+1 - Apresenta repositório configurado corretamente, pipeline de CI funcional com integração clara no Github Actions scripts de build automatizados e testados sem erros.
+
+0.5 - Apresenta configuração do repositório e implementação do pipeline de CI, SEM os scripts.
+
+0 - Não apresenta documentação.
+
+
+Descrição
+Valor
+Scripts de infraestrutura como código (IaC)
+
+1
+Dimensões
+1 - Apresenta scripts completos, bem-organizados, que utilizam de forma eficaz ferramentas como Terraform ou CloudFormation.
+
+0.5 - Apresenta scripts funcionais, mas carecem de clareza ou organização.
+
+0 - Não apresenta documentação.
