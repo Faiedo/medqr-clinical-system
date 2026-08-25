@@ -27,7 +27,7 @@ jobs:
       - name: Install Project Dependencies
         run: |
           cd devops
-          npm ci
+          npm install
 
       - name: Run Code Linter & Formatting Checks
         run: |
