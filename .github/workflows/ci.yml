@@ -25,27 +25,23 @@ jobs:
           node-version: '20.x'
 
       - name: Install Project Dependencies
-        run: |
-          cd devops
-          npm install
+        working-directory: devops
+        run: npm install
 
       - name: Run Code Linter & Formatting Checks
-        run: |
-          cd devops
-          npm run lint --if-present
+        working-directory: devops
+        run: npm run lint --if-present
 
       - name: Execute Automated Unit & Integration Tests
-        run: |
-          cd devops
-          npm test
+        working-directory: devops
+        run: npm test
         env:
           CI: true
           NODE_ENV: test
 
       - name: Build Application Artifacts
-        run: |
-          cd devops
-          npm run build --if-present
+        working-directory: devops
+        run: npm run build --if-present
 
   terraform-check:
     name: Validate Terraform Infrastructure Code (IaC)
@@ -63,8 +59,10 @@ jobs:
       - name: Terraform Format Verification
         run: terraform fmt -check -recursive devops/terraform
 
-      - name: Terraform Initialization & Validation
-        run: |
-          cd devops/terraform
-          terraform init -backend=false
-          terraform validate
+      - name: Terraform Init
+        working-directory: devops/terraform
+        run: terraform init -backend=false
+
+      - name: Terraform Validate
+        working-directory: devops/terraform
+        run: terraform validate
