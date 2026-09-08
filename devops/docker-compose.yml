@@ -1,0 +1,73 @@
+version: '3.8'
+
+# ==============================================================================
+# Orquestração de Containers do Sistema MedQR
+# Disciplina: DevOps na Prática (Fase 2)
+# ==============================================================================
+
+services:
+  # Serviço da Aplicação Web / API MedQR
+  medqr-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: faiedo/medqr-clinical-system:2.0.0
+    container_name: medqr-app-service
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DB_HOST=medqr-db
+      - DB_PORT=5432
+      - DB_NAME=medqr_db
+      - DB_USER=medqr_admin
+      - DB_PASSWORD=MedQR_SecurePass2026!
+      - DATABASE_URL=postgresql://medqr_admin:MedQR_SecurePass2026!@medqr-db:5432/medqr_db
+    depends_on:
+      medqr-db:
+        condition: service_healthy
+    networks:
+      - medqr-internal-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  # Serviço do Banco de Dados Relacional PostgreSQL
+  medqr-db:
+    image: postgres:15-alpine
+    container_name: medqr-db-service
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: medqr_db
+      POSTGRES_USER: medqr_admin
+      POSTGRES_PASSWORD: MedQR_SecurePass2026!
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - medqr-postgres-data:/var/lib/postgresql/data
+      - ./init-db.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    networks:
+      - medqr-internal-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medqr_admin -d medqr_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+# Redes isoladas para comunicacao segura entre containers
+networks:
+  medqr-internal-net:
+    driver: bridge
+    name: medqr-internal-network
+
+# Volumes persistentes para protecao contra perda de dados
+volumes:
+  medqr-postgres-data:
+    name: medqr-postgres-volume

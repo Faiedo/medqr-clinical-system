@@ -1,0 +1,78 @@
+Enunciado da fase 2
+
+Nesta segunda fase, Entrega Contínua, Monitoramento e Segurança, o projeto abrangerá a entrega contínua, a containerização e orquestração de aplicações, monitoramento, logging, testes e segurança. As aulas necessárias para esta fase incluem Entrega Contínua, Containers e Orquestração, Monitoramento e Logging, Segurança em DevOps, Teste, Gerenciamento de Configurações e DevOps na Prática.
+
+O que deve ser feito:
+
+1. Pipeline de Entrega Contínua
+a) Expanda o pipeline de CI para incluir Entrega Contínua (CD).
+
+2. Implementação de Containers e Orquestração
+a) Containerize a aplicação utilizando Docker.
+
+b) Crie scripts de deploy usando os containers.
+
+3. Relatório Final e Demonstração
+a) Escreva um relatório detalhado de todas as etapas do projeto, com documentação de cada fase.
+b) Crie um fluxograma com demonstração prática de todo o fluxo DevOps implementado.
+c) Analise os resultados e sugira melhorias futuras.
+
+
+Quais aulas você precisa assistir para realizar a fase 2?
+Aulas 4 a 10:
+1. Entrega Contínua (CD)
+2. Containers e Orquestração
+3. Monitoramento e Logging
+4. Segurança em DevOps
+5. Teste
+6. Gerenciamento de Configurações
+7. DevOps na Prática
+
+O que você precisa entregar?
+Um documento em PDF, conforme modelo disponibilizado pelos professores, descrevendo:
+• Pipeline de Entrega Contínua completo
+• Representação visual do Fluxograma completo com a demonstrando de todas as etapas do pipeline de integração
+• Relatório final
+
+Critérios de Avaliação
+
+
+Descrição
+Valor
+Expansão do Pipeline de CI para CD
+
+1
+Dimensões
+1 - Apresenta clara e completa a expansão do projeto adicionando CD (Integração continua) com exemplo de uso.
+
+0.5 - Apresenta expansão do projeto adicionando CD mas falta clareza e detalhes (Integração continua) SEM exemplo de uso.
+
+0 - Não realiza a expansão.
+
+
+Descrição
+Valor
+Containerização e Orquestração
+
+1
+Dimensões
+1 - Apresenta clara e completa a expansão do projeto incluindo Containerização e Orquestração Com scripts claros e bem documentados.
+
+0.5 - Realiza expansão do projeto, mas falta clareza e detalhes, incluindo Containerização e Orquestração Com scripts claros e bem documentados.
+
+0 - Não realiza a expansão.
+
+
+Descrição
+Valor
+Relatório final e demonstração
+
+2
+Dimensões
+2 - Apresenta relatório completo e bem estruturado, incluindo o fluxograma do pipeline, documentando detalhadamente as etapas das Fases 1 e 2. A demonstração prática é clara, funcional e evidencia domínio dos conceitos e ferramentas DevOps. A análise crítica é aprofundada, identificando limitações e propondo melhorias viáveis com base nos aprendizados.
+
+1 - Apresenta o relatório com o fluxograma, com algumas lacunas ou superficialidade em partes da Fase 1 ou 2. A demonstração é realizada, mas com falhas técnicas. A análise está com pouca profundidade ou com sugestões genéricas.
+
+0.5 - Apresenta relatório SEM o fluxograma, análise incompletos, com lacunas nas etapas da Fase 1 e Fase 2, e informações confusas ou mal organizadas. A demonstração está claramente disfuncional.
+
+0 - Não apresenta relatório, demonstração e análise.

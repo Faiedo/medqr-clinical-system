@@ -1,0 +1,132 @@
+Enunciado da fase 2
+
+A fase 2 será de desenvolvimento da aplicação e deverá ser desenvolvida contendo:
+
+1. Organização do GitHub - O código no GitHub deverá contar com a última alteração para a data de entrega: você deverá criar um Branch para a entrega da fase, evitando modificações fora do prazo.
+2. Desenvolvimento do Código do Backend.
+3. Desenvolvimento do Código do Frontend.
+4. Atualização das User Stories, pois algumas podem ser incluídas e excluídas durante o desenvolvimento.
+5. Atualização do Roadmap (cronograma) de desenvolvimento.
+6. Vídeo de apresentação do projeto em formato Pitch e com demonstração da solução desenvolvida, de no mínimo 3 e no máximo 5 minutos. Para o desenvolvimento do vídeo, consulte o anexo “Orientações para gravação de vídeo da apresentação em formato Pitch”. Você também pode conferir dicas no vídeo Como construir um Pitch de impacto?
+
+7. Todos os artefatos do projeto: build e links.
+8. Conclusão com a descrição de aprendizados e dificuldades encontradas, assim como sua autoavaliação na fase 2 e do projeto como um todo. Sua autoavaliação deverá avaliar de forma qualitativa suas entregas de acordo com o projeto proposto, assim como ajustes realizados de acordo com o feedback recebido nas entregas, em conformidade com os prazos e a concordância com os critérios do projeto nas duas fases. Ao final, atribua-se uma autoavaliação quantitativa de 0 a 10 e descreva o motivo de tal avaliação.
+
+
+Quais aulas você precisa assistir para realizar a fase 2? Aula 2.
+
+ 
+
+O que você precisa entregar? Um documento, conforme template disponibilizado pelos professores, com todos os itens da fase 2 atualizados conforme necessidade do projeto, Link para vídeo que deve ser publicado no Youtube como “Não listado”, build e links necessários para utilizar o sistema, conclusão com autoavaliação, link para o vídeo com os itens pedidos.
+
+Critérios de Avaliação
+
+
+Descrição
+Valor
+Desenvolvimento de todos os módulos do sistema
+
+1.5
+Dimensões
+1.5 - Desenvolveu os módulos do sistema (Backend, Frontend e Banco de dados), de forma a atender as funcionalidades propostas.
+
+1 - Desenvolveu apenas dois dos módulos completos, ou entregou pelo menos um dos módulos de forma incompleta.
+
+0.5 - Desenvolveu apenas um dos módulos completo.
+
+0 - Não desenvolveu nenhum dos módulos completo.
+
+
+Descrição
+Valor
+Atualização das User Stories
+
+0.8
+Dimensões
+0.8 - Apresentou atualização adequada das User Stories, demonstrando o que foi modificado, com mudanças e melhorias significativas.
+
+0.4 - Apresentou atualização das User Stories, mas com algumas inconsistências nas mudanças ou sem demonstrar o que foi modificado.
+
+0 - Não atualizou as User Stories ou atualizou de forma irrelevante.
+
+
+Descrição
+Valor
+Atualização do Roadmap (cronograma)
+
+0.5
+Dimensões
+0.5 - Apresentou atualização adequada do Roadmap, refletindo mudanças e melhorias significativas, demonstrando o que foi modificado, com prazos claros e bem estruturados.
+
+0.25 - Apresentou atualização do Roadmap, mas com algumas inconsistências, com prazos e tarefas confusos ou sem demonstrar o que foi modificado.
+
+0 - Não atualizou o Roadmap ou atualizou de forma irrelevante.
+
+
+Descrição
+Valor
+Postura e Apresentação Oral em forma de Pitch
+
+0.5
+Dimensões
+0.5 - Apresentou o Pitch com todos os requisitos: módulos desenvolvidos, tecnologias utilizadas e resultado final com o sistema rodando. A apresentação é realizada de forma espontânea e natural, demonstrando confiança, domínio do conteúdo e boa comunicação, sem ler a apresentação.
+
+0.4 - Apresentou o Pitch cumprindo parcialmente os requisitos, mas a apresentação é realizada com boa fluidez e clareza na exposição, demonstrando conhecimento do conteúdo.
+
+0.2 - Apresentou o Pitch cumprindo superficialmente os requisitos, sem espontaneidade, pouca clareza e com dificuldades na postura e comunicação.
+
+0 - Não apresentou o Pitch.
+
+
+Descrição
+Valor
+Tempo da apresentação gravada e qualidade de áudio e imagem do vídeo
+
+0.5
+Dimensões
+0.5 - Vídeo dentro do tempo estipulado (máximo 5 minutos) e com boa qualidade de áudio e imagem.
+
+0.25 - Vídeo com tempo inferior a 3 minutos ou superior a 5 minutos. Vídeo com boa qualidade de áudio e imagem.
+
+0 - Vídeo com tempo inferior a 3 minutos ou superior a 5 minutos e com baixa qualidade de áudio e imagem.
+
+
+Descrição
+Valor
+Vídeo contém demonstração da solução desenvolvida
+
+0.7
+Dimensões
+0.7 - Demonstra que todas as funcionalidades obrigatórias foram desenvolvidas de forma clara e coerente.
+
+0.4 - Demonstra que maioria das funcionalidades obrigatórias foram desenvolvidas, mas não todas, ou alguma de forma confusa.
+
+0.2 - Demonstra poucas das funcionalidades obrigatórias desenvolvidas.
+
+0 - Não demonstra o projeto desenvolvido ou demonstração não tem nenhuma das funcionalidades obrigatórias.
+
+
+Descrição
+Valor
+Artefatos do projeto
+
+0.5
+Dimensões
+0.5 - Apresentou todos os artefatos muito bem organizados, completos e com links funcionando, prontos para utilização.
+
+0.25 - Apresentou parcialmente os artefatos ou com links quebrados.
+
+0 - Não apresentou os artefatos.
+
+
+Descrição
+Valor
+Conclusão e Autoavaliação
+
+0.5
+Dimensões
+0.5 - Apresentou conclusão muito bem elaborada, refletindo aprendizados, dificuldades e autoavaliação com profundidade e clareza.
+
+0.25 - Apresentou conclusão razoável, de forma que faltou clareza e detalhes sobre os aprendizados e dificuldades.
+
+0 - Não apresentou conclusão e autoavaliação.

@@ -11,6 +11,7 @@ on:
       - main
       - develop
 
+# Permissoes necessarias para publicacao de artefatos e packages
 permissions:
   contents: read
   packages: write
@@ -31,6 +32,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
+          cache: 'npm'
+          cache-dependency-path: devops/package.json
 
       - name: Instalacao de Dependencias
         working-directory: devops
@@ -116,6 +119,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: [container-build-and-scan]
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    environment:
+      name: production
+      url: https://github.com/Faiedo/medqr-clinical-system
 
     steps:
       - name: Checkout do Repositorio
